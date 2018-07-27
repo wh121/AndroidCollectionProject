@@ -5,21 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.wh.androidcollectionproject.MainActivity">
+    tools:context="com.wh.androidcollectionproject.jiemian.infos.LoadingStatusActivity">
 
     <Button
-        android:id="@+id/btnKuangjia"
+        android:id="@+id/btn_loadingLayout"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="框架汇集"
-        android:textSize="20sp" />
-
-    <Button
-        android:id="@+id/btnJieMian"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="界面汇集"
-        android:textSize="20sp" />
-
+        android:text="使用LoadingLayout" />
 
 </LinearLayout>

@@ -16,6 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".kuangjia.KuangJiaActivity" />
+        <activity android:name=".jiemian.JieMianActivity" />
+        <activity android:name=".kuangjia.NavigationTabBarActivity" />
+        <activity android:name=".jiemian.infos.LoadingStatusActivity" />
+        <activity android:name=".jiemian.infos.LoadingLayoutActivity" />
+        <activity android:name=".jiemian.supers.SuperActivity" />
+        <activity android:name=".jiemian.supers.LunBoTuActivity" />
+        <activity android:name=".jiemian.supers.ImageSliderActivity" />
+        <activity android:name=".jiemian.supers.ImageSliderTwoActivity" />
+        <activity android:name=".jiemian.supers.TitleActivity" />
+        <activity android:name=".jiemian.supers.ContainLayoutTitleActivity" />
+        <activity android:name=".jiemian.supers.ContainLayoutTitleTwoActivity"></activity>
+
     </application>
 
 </manifest>

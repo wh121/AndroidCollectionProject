@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wh.androidcollectionproject.jiemian.JieMianActivity">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="程序打开启动页" />
+
+    <Button
+        android:id="@+id/btn_status"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="状态加载显示" />
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="信息加载页" />
+
+    <Button
+        android:id="@+id/btn_mine"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="个人中心页" />
+
+    <Button
+        android:id="@+id/btn_super"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="首页页面" />
+
+</LinearLayout>

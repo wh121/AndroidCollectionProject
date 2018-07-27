@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wh.androidcollectionproject.kuangjia.KuangJiaActivity">
+
+    <TextView
+        android:id="@+id/tvButterKnife"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="butterknife测试准备。。。"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnButterKnife"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="butterknife测试" />
+
+    <Button
+        android:id="@+id/btnNavigationTabBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="NavigationTabBar测试" />
+
+</LinearLayout>
